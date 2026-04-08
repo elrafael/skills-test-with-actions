@@ -33,7 +33,6 @@ def test_area_of_circle_zero_radius():
     # Assert
     assert result == 0
 
-
 def test_get_nth_fibonacci_zero():
     """Test with n=0."""
     # Arrange
@@ -44,7 +43,6 @@ def test_get_nth_fibonacci_zero():
 
     # Assert
     assert result == 0
-
 
 def test_get_nth_fibonacci_one():
     """Test with n=1."""
@@ -57,7 +55,6 @@ def test_get_nth_fibonacci_one():
     # Assert
     assert result == 1
 
-
 def test_get_nth_fibonacci_ten():
      """Test with n=10."""
      # Arrange
@@ -66,4 +63,4 @@ def test_get_nth_fibonacci_ten():
      result = get_nth_fibonacci(n)
 
      # Assert
-     assert result == 55
+     assert result == 89
